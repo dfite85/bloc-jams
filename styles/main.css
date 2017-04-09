@@ -63,6 +63,10 @@ html {
      color: rgb(233,50,117);
  }
 
+.links-container .navbar-link:active {
+    background-color: white;
+}
+
 .hero-content .hero-title {
      position: absolute;             /* positioning will be explained in a resource */
      top: 40%;                       /* positioning will be explained in a resource */
