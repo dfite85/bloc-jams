@@ -139,6 +139,10 @@ html {
     max-width: 64rem;
 }
 
+.container.narrow {
+    max-width: 56rem;
+}
+
 .column {
     float: left;
     padding-left: 1rem;
