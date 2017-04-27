@@ -25,3 +25,5 @@ var collectionItemTemplate =
           collectionContainer.innerHTML += collectionItemTemplate;
       }
  }
+ 
+ //to be sure that this is all correct.. i copied and pasted.
