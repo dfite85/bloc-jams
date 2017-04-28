@@ -1,6 +1,6 @@
 var pointsArray = document.getElementsByClassName('point');
 
-var animatePoints = function(points) { 
+var animatePoints = function(points) { // why is this points not point
     var revealPoint = function(index) { 
     points[index].style.opacity = 1; points[index].style.transform = "scaleX(1) translateY(0)"; 
     points[index].style.msTransform = "scaleX(1) translateY(0)"; 
@@ -18,5 +18,12 @@ if (window.innerHeight > 950) {
 var sellingPoints = document.getElementsByClassName('selling-points')[0]; var scrollDistance = sellingPoints.getBoundingClientRect().top - window.innerHeight + 200;
 
 window.addEventListener('scroll', function(event) {
-    if (document.documentElement.srollTop || document.body.scrollTop >=
+   
+  
+    
+    
+    
+if (document.documentElement.srollTop || document.body.scrollTop >=
 scrollDistance) { animatePoints(pointsArray); } }); }
+
+

@@ -1,4 +1,4 @@
-// all content was pasted to prevent errors
+
 // Example Album
  var albumPicasso = {
      title: 'The Colors',
