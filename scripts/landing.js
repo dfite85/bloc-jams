@@ -20,7 +20,7 @@ $(window).load(function () {
     }
   });
 });
-=======
+
 var pointsArray = document.getElementsByClassName('point');
 
 var animatePoints = function(points) { // why is this points not point
