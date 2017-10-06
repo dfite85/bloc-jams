@@ -86,19 +86,19 @@ var albumQueen = {
  };
 
 var findParentByClassName = function(element, targetClass) {
-    if (element) {
+    if (element.parentElement == undefined) {
+       console.log("No parent found");
+        return;
+    }
+    else if (element) {
         var currentParent = element.parentElement;
-        
-        while (currentParent.className !== targetClass && currentParent.className !== null) {
+         while (currentParent.className !== targetClass && currentParent.className !== null) {
             currentParent = currentParent.parentElement;          // if this block fails
-            console.log("No parent found with that class name");
          }
-         if (currentParent != element.parentElement) {
-            console.log("No parent found");
+         if (currentParent != targetClass) {
+            console.log('No parent found with that class name');
          }
         return currentParent;
-    
-    
     }
 };
 
