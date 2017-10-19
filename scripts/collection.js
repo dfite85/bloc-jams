@@ -23,7 +23,7 @@
  
      for (var i = 0; i < 12; i++) {
          var $newThumbnail = buildCollectionItemTemplate();
-         $collectionContainer.append(var$newThumbnail);
+         $collectionContainer.append($newThumbnail);
      }
  });
 
